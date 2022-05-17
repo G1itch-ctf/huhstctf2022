@@ -1,0 +1,9 @@
+version: "2"
+services:
+  web_peixun_shentou_3:
+    build: .
+    image: penson/shentou_3
+    ports:
+      - "26211:80"
+    environment:
+      - FLAG=flag{d8a20e24-e781-3275-a236-1d317c58d6b1}

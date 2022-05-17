@@ -1,0 +1,9 @@
+version: "3"
+services:
+  tomcat:
+    build: .
+    image: penson/freemarker_learn
+    ports:
+      - "26021:80"
+    environment:
+      - FLAG=flag{a2c8bdd9-7da4-3b52-84d9-25be23aaf074}

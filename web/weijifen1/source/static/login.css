@@ -1,0 +1,61 @@
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 500px;
+    opacity: 1;
+    background: black;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: left;
+    padding: 0px;
+}
+
+.form h2 {
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.form li:hover {
+    transform: scale(1.5);
+}
+
+
+
+.form form input {
+    text-align: left;
+    outline: none;
+    background: none;
+    border: 0;
+    transition: 0.7s;
+    transition-property: width border-bottom;
+    color: white;
+    margin: 20px;
+    width: 800px;
+}
+
+
+.form form button {
+    font-size: 30px;
+    outline: none;
+    background: none;
+    border: 0;
+    transition: 0.7s;
+    transition-property: transform;
+    color: white;
+    margin: 20px;
+}
+
+.form form button:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}

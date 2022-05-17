@@ -1,0 +1,9 @@
+version: "2"
+services:
+  web:
+    build: .
+    image: penson/g1ctf2022_tiaoyitiao
+    ports:
+      - "26031:80"
+    environment:
+      - FLAG=flag{f89b7af3-eeef-3b96-9a39-60cfd4f696b8}

@@ -1,0 +1,9 @@
+version: "2"
+services:
+  web:
+    build: .
+    image: penson/g1ctf2022_weijifen
+    ports:
+      - "26221:80"
+    environment:
+      - FLAG=flag{7ed88f97-ee65-3dcb-a751-375c1151b64a}

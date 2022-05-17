@@ -1,0 +1,9 @@
+version: "2"
+services:
+  g1ctf2022_easysqli:
+    build: .
+    image: penson/g1ctf2022_easysqli
+    ports:
+      - "26051:3000"
+    environment:
+      - FLAG=flag{a6b7c758-e871-361f-9a01-62784ec7504c}
